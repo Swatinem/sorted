@@ -1,0 +1,15 @@
+{
+  "name": "sorted",
+  "repo": "Swatinem/sorted",
+  "version": "0.0.1",
+  "description": "small lib to insert and search in a sorted array by key function",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "component/to-function": "*"
+  },
+  "license": "LGPLv3"
+}

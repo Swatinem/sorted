@@ -1,0 +1,26 @@
+{
+  "name": "sorted",
+  "private": true,
+  "description": "small lib to insert and search in a sorted array by key function",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "./index",
+  "maintainers": [
+    "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de)"
+  ],
+  "dependencies": {
+    "to-function": "*"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "mocha": "*",
+    "should": "*",
+    "coveralls": "*",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "make test-coveralls"
+  },
+  "repository": "git://github.com/Swatinem/sorted.git",
+  "license": "LGPLv3"
+}
